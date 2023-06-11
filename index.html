@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio</title>
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+      <script src="./assets/js/bg.js" defer></script>
+   </head>
+   <body>
+      <header>
+         <button class="burger-btn">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+         </button>  
+         <nav class="burger-menu">
+            <a href="#bio" class="lien-menu">Présentation</a>
+            <a href="#realisations" class="lien-menu">Réalisation</a>
+            <a href="#infographies" class="lien-menu">Infographies</a>
+            <a href="#passions" class="lien-menu">Passions</a>
+            <a href="#contact" class="lien-menu">Contact</a>
+         </nav>
+         <h1  id="bio">Rochedix Sasha Portfolio</h1>
+      </header>
+      <main>
+         <h2>Biographie</h2>
+         <section>
+            <img src="./assets/media/image/Moi.JPG" alt="PHOTO DE MOI">
+            <p class="bio">Je suis étudiant en première année à l'IUT MMI d'Angoulême. Je suis passionné par le jeu vidéo et la programmation. 
+               J'ai pour ambition de devenir Game Designer. Cette formation m'enseigne le travail de développeur qui est une très belle découverte. J'ai étudié
+               au Lycée Léonard De Vinci à Monistrol-sur-Loire et j'ai obtenu un Bac mention Bien spécialité Anglais et SES. 
+               Pour plus de détails Téléchargez mon CV <a download href="assets/media/image/CV-Sasha-Rochedix.pdf">ici</a>.
+            </p>
+         </section>
+         <h2>Réalisations</h2>
+         <section id="realisations">
+            <div class="realisation" >
+               <h3>Projet Ludwig</h3>
+               <p>court métrage parodique d'un reportage scientifique</p>
+               <iframe src="https://www.youtube.com/embed/Uy4Y5Tqv7QU" title="Projet Ludwig">
+               </iframe>
+            </div>
+            <div class="realisation">
+               <h3>Logo MediaAlby</h3>
+               <p>Réalisation d'un logo fictif pour la médiathéque d'Alby </p>
+               <img src="./assets/media/image/logo.png" alt="Logo MediaAlby">
+            </div>
+         </section>
+         <h2>Infographies/photographies</h2>
+         <section id="infographies">
+            <div class="wrapper">
+               <h3> appuyez et scrollez !</h3>
+               <div class="carousel">
+                  <div class="image-container">
+                     <img class="diapo" src="./assets/media/image/Project-Cube.jpg" alt="ensemble d'infographie">
+                     <div class="overlay">
+                        <p class="text">Ceci est la représentation pixelisée du "voyageur contemplant une mer de nuage" Travail effectué en 1ère spécialité Art Plastique chaque partie de l'image représentent le tableau avec des calques plus ou moins de calques ce qui donnent alors des formes nouvelles.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="image-container">
+                     <img class="diapo" src="./assets/media/image/Photo-compilation.jpg" alt="photo art pla term">
+                     <div class="overlay">
+                        <p class="text">J'ai pris une photo d'une lumière qui éclairait un mur et j'ai décliné dans de nombreux types différents comme la célèbre sérigraphie de  Marilyn Monroe</p>
+                     </div>
+                  </div>
+                  <div class="image-container">
+                     <img class="diapo" src="./assets/media/image/sérigraphie.jpg" alt="sérigraphie 4 couches"> 
+                     <div class="overlay">
+                        <p class="text">Cette sérigraphie est mon projet de fin d'année en Terminale elle est assez conséquente chaque couleur représente une couche. Elle exprime pour moi les moments où je suis perdu dan mes pensées.
+                        </p>
+                     </div>
+                  </div>
+                  <span class="caption">1. infographie 2. photo 3. sérigraphie</span>
+               </div>
+               <i class="fa-solid fa-arrow-right"></i>
+            </div>
+         </section>
+         <h2>Passions</h2>
+         <section id="passions">
+            <div class="slider-container">
+               <div class="slider">
+                  <div class="slide">
+                     <h3>La création de jeu vidéo</h3>
+                     <img src="./assets/media/image/RPGMakerMv.jpg" alt="illustration moteur de jeu">
+                     <p>J'adore réaliser des ébauches de jeux vidéos créer l'histoire l'univers le coeur de gameplay... J'essaie de me cultiver le plus possible pour pouvoir réaliser des créations originales et funs.
+                     </p>
+                  </div>
+                  <div class="slide">
+                     <h3>L'univers de l'Esport</h3>
+                     <img src="./assets/media/image/Esport.jpeg" alt="Photo du LAN Esport">
+                     <p>Une autre perspective du jeu vidéo que j'apprécie fortement je trouve que se sont de véritables athlètes. C'est vraiment  un monde où je participe activement par le biais d'évènements que cela soit en tant que compétiteurs ou fervent supporter.
+                     </p>
+                  </div>
+                  <div class="slide">
+                     <h3>Les Arts du spectacle</h3>
+                     <img src="./assets/media/image/art.jpg" alt="scène de théâtre">
+                     <p>La danse, le chant, le théâtre tous ces médiums permettent d'exprimer tellement d'émotions. Ces domaines sont en quelques sortent mes pêchés je n'ai jamais eut le temps pendant mon enfant de pouvoir pratiquer un de ces domaines mais je reste très admiratif de leur travail.</p>
+                  </div>
+               </div>
+               <div class="buttons">
+                  <div class="button" id="prev">&#8249;</div>
+                  <div class="button" id="next">&#8250;</div>
+               </div>
+            </div>
+         </section>
+         <h2>Me contacter</h2>
+         <section id="contact">
+            <ul>
+               <li>Téléphone : 01 23 45 67 89</li>
+               <li>Email : contact@monportfolio.com</li>
+               <li>Adresse : 12 rue des Champs, 75001 Paris</li>
+            </ul>
+         </section>
+      </main>
+      <footer>
+         <a href="#" id="mentions-legales-link">Mentions légales</a>
+         <div id="mentions-legales" style="display: none;">
+            <h2>Mentions légales</h2>
+            <p>MENTIONS LÉGALES
+               Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Shortfolio l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
+               Edition du site 
+               Le présent site, accessible à l’URL http://srochedix.alwaysdata.net/Shortfolio/ (le « Site »), est édité par :
+               Sasha Rochedix, résidant 16000, de nationalité Française (France), né(e) le 26/07/2004, 
+               Hébergement
+               Le Site est hébergé par la société alwaysdata, situé alwaysdata.com, (contact téléphonique ou email : +33184162340).
+               Directeur de publication 
+               Le Directeur de la publication du Site est Sasha Rochedix.
+               Nous contacter 
+               Par téléphone : +33564324130
+               Par email : dhioadoiazad@gmail.com
+               Par courrier : 16000
+               Génération des mentions légales par Legalstart.
+            </p>
+            <button id="close-mentions-legales">Fermer</button>
+         </div>
+      </footer>
+   </body>
+</html>

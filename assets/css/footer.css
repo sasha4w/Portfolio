@@ -1,0 +1,23 @@
+footer{
+    background-color: #55B9DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+footer a img {
+    width: 50px;
+    user-select: none;
+}
+footer div{
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    user-select: none;
+    padding-bottom:.5rem;
+}
